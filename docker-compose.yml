@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  mysql:
+    image: 'mysql:5.6'
+    restart: on-failure
+    environment:
+    - MYSQL_DATABASE=ooptical
+    - MYSQL_PASSWORD=password
+    - MYSQL_ROOT_PASSWORD=password
+    - MYSQL_USER=user
+    ports:
+    - '3306:3306'

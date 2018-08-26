@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Ooptical Backend",
   "authors": [
-    "Francois Achache", 
+    "Francois Achache",
     "Denis Mama"
   ],
   "license": "MIT",
@@ -24,11 +24,11 @@
   },
   "private": false,
   "dependencies": {
-    "@nestjs/common": "^5.0.0",
-    "@nestjs/core": "^5.0.0", 
+    "@nestjs/common": "^5.2.2",
+    "@nestjs/core": "^5.2.2",
     "fastify-formbody": "^2.0.0",
     "reflect-metadata": "^0.1.12",
-    "rxjs": "^6.0.0",
+    "rxjs": "^6.2.2",
     "typescript": "^2.6.2"
   },
   "devDependencies": {
